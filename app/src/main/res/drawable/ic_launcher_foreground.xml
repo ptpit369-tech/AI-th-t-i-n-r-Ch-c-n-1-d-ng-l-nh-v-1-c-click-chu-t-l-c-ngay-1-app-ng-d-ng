@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer compass ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,14 A40,40 0 1,1 53.9,14"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF" />
+    <!-- Secondary inner ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,20 A34,34 0 1,1 53.9,20"
+        android:strokeWidth="1"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.6" />
+    <!-- Compass Pointer Indicators (North, South, East, West) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,10 L56,15 L52,15 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,98 L56,93 L52,93 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M98,54 L93,56 L93,52 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,54 L15,56 L15,52 Z" />
+    <!-- Center Golden Star representing Vietnam -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M 54,30 L 59.9,45.9 L 76.8,45.9 L 63.2,55.8 L 68.1,76.8 L 54,66.6 L 39.9,76.8 L 44.8,55.8 L 31.2,45.9 L 48.1,45.9 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFF8E1" />
+</vector>

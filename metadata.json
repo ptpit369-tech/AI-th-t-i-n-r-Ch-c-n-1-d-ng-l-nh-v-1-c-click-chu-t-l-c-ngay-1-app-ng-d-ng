@@ -1,0 +1,6 @@
+{
+  "name": "Khám Phá Việt Nam",
+  "description": "Ứng dụng giới thiệu các địa điểm du lịch nổi tiếng và danh lam thắng cảnh tại Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
